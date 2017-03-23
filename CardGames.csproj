@@ -82,10 +82,6 @@
     </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System" />
-    <Reference Include="nunit.framework">
-      <HintPath>packages\NUnit.3.6.1\lib\net45\nunit.framework.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <MacLibraryFiles Include="lib\sdl13\libSGSDK.dylib" />
@@ -109,7 +105,6 @@
     <WinLibraryFiles Include="lib\win\smpeg.dll" />
     <WinLibraryFiles Include="lib\win\swingame.rc" />
     <WinLibraryFiles Include="lib\win\zlib1.dll" />
-    <None Include="packages.config" />
     <None Include="Resources\animations\startup.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
