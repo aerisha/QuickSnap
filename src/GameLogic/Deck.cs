@@ -65,7 +65,7 @@ namespace CardGames.GameLogic
 
 				Card temp = _cards [i];
 				_cards [i] = _cards [i + rndIdx];
-				_cards [i + rndIdx] = temp;//TODO: implement shuffle!
+				_cards [i + rndIdx] = temp;//TODO: implement shuffle!!
 			}
 
 			_topCard = 0;
